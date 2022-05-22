@@ -1,0 +1,274 @@
+
+body {
+    margin: 0;
+
+}
+p {
+  font-size: huge;
+}
+
+
+.body {
+  /* width: 100%; */
+  width: 1500px;
+  margin: 0 auto;
+}
+.container  {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  
+}
+.navbox {
+  display: flex;
+ justify-content: space-between;
+ list-style-type: none;
+ padding-top: 42px;
+ 
+}
+img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.block {
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.galery {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: 500px;
+  max-height: 500px;
+  width: 100%;
+  flex-wrap: wrap;
+  background: #97d848;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 5px;
+
+}
+.content {
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: grey;
+    position: sticky;
+    top: 0;
+}
+.navblock {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover {
+    color: rgb(0, 255, 128);
+    
+}
+
+
+.names {
+    width: 100%; 
+    justify-content: space-around;
+
+}
+.division {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+.mydog {
+  width: 500px;
+  height: 500px;
+}
+
+.block-2 {
+    background: cornflowerblue;
+}
+.text-1 {
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.footer {
+    /* height: 350px;
+    width: 100%; */
+    
+    bottom: 0;
+    
+    /* background: cadetblue; */
+    /* display: flex;
+    justify-content: center; */
+}
+
+
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_rights {
+    display: flex;
+    justify-content: center;
+}
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+/* 
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+} */
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+/* .block {
+  max-width: 600px;
+  max-height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+} */
+img {
+  width: 200px;
+  width: 200px;
+}
+
